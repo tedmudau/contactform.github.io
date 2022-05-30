@@ -6,9 +6,9 @@ let finalmessage = `Name : ${name} <br>  Email : ${email} <br>  Message : ${mess
 const btn = document.querySelector('button')
 btn.addEventListener('click',() => {
     Email.send({
-        Host : "smtp.mailtrap.io",
-        Username : "aa47bef73a3965",
-        Password : "89b20c44ce7f21",
+        Host : "smtp.elasticemail.com",
+        Username : "maluleke45@gmail.com",
+        Password : "004E15D6F0774E003CBFE518032AA62D5124",
         To : 'maluleke45@gmail.com',
         From : "you@isp.com",
         Subject : "Mail from website",
